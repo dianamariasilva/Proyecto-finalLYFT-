@@ -15,7 +15,7 @@ const SignUp = ({model}) => {
             <div className="row sign-up">
                 <div className="col-md-12">
                     <div className="col-xs-3">
-                        <NavLink to={"/home"}><span className="glyphicon glyphicon-chevron-left">{<back/>}</span></NavLink>
+                        <a><NavLink to={"/home"} className="glyphicon glyphicon-chevron-left">{<back/>}</NavLink></a>
 						{/* <NavLink to={"/signup-form"} className="btn btn-lyft btn-lg btn-block"> Next </NavLink> */}
                     </div>
                     <div className="col-md-9">
