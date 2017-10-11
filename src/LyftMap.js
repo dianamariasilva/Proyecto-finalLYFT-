@@ -54,8 +54,15 @@ const LyftMap = ({model}) => {
 
 	return (<div>
 
-		<h2>LyftMap </h2>
-
+		<div className="row">
+			<div className="col-xs-3">
+				<NavLink to={"/signup-form"}><span className="glyphicon glyphicon-chevron-left">{<back/>}</span></NavLink>
+				{/* <NavLink to={"/signup-form"} className="btn btn-lyft btn-lg btn-block"> Next </NavLink> */}
+			</div>
+			<div className="col-xs-3">
+				<h2>LyftMap </h2>
+			</div>
+		</div>
 		<div className="col-md-3 col-sm-3">
 			<div className="form-group">
 		
