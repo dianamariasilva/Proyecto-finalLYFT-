@@ -1,44 +1,30 @@
 /* estilos del componete de validacion */
-@import url('https://fonts.googleapis.com/css?family=Baloo+Tammudu');
-@import url('https://fonts.googleapis.com/css?family=Monoton|Zilla+Slab+Highlight');
-@import url('https://fonts.googleapis.com/css?family=Limelight');
-body{
-    background-color: white;
-}
-#contacto {
+#contacto{
     text-align: center;
 }
 
-
-@media (min-width: 768px){
-.container {
-    width: 750px;
-    }
-}
-a {
-    color: #337ab7;
-    text-decoration: none;
-}
 .row span {
-    padding-top: 25px;
+    /* padding-top: 25px; */
     font-size: 2em;
 }
-.Sign1 {
+
+.App{
+    padding: 3%;
+}
+
+.Sign1{
     text-align: left;
     margin-left: 5px;
-    font-family: 'Monoton', cursive;
-}
-.h5 {
-    font-size: 14px;
 }
 
-.subtitle2{
-    font-family: 'Zilla Slab Highlight', cursive;
+.form-control{
+    height: 43px;
 }
 
-.vacio {
+.vacio{
     margin: 5px 5%;
 }
+
 .btnNext {
     width: 100%;
     font-size: 40px;
@@ -48,9 +34,7 @@ a {
     margin-top: 60px;
     background: -webkit-radial-gradient(#ff00d4, #e0526c);
     background: -moz-radial-gradient(#ff00d4, #e0526c);
-    background-color: #D90472;
-    background: -webkit-radial-gradient(#bf3e60, rgba(216, 32, 139, 0.83));
 }
-.btn {
-    padding: 1.5px 2px;
+.num{
+    height: 50px;
 }
