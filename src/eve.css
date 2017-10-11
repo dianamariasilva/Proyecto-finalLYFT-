@@ -1,0 +1,49 @@
+body{
+    /* background-image: url(../img/azul.jpg); */
+    background-repeat: no-repeat;
+    background-size: 100% 720px; 
+}
+
+.form-box {
+    width: 70%;
+    margin: auto;
+    padding-top:80px;
+}
+
+.form-box h1 {
+    text-align: center;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: tomato;
+}
+
+.form-box h1 span {
+    font-weight: lighter;
+}
+
+#checkbox-form{
+    width: 20px;
+}
+
+.glyphicon-chevron-left{
+    color: black;
+    width: 100%;
+    background-color: rgba(192,192,192,0.3);
+    padding: 0;
+}
+
+.code{
+    margin-top: -240px;
+    padding-left: 90px;
+    position: absolute;
+    top:0;
+}
+
+#close{
+    position: absolute;
+    top: 0px;
+}
+.navbar-brand{
+    width: 100%;
+    text-align: center;
+}
