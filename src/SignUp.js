@@ -7,7 +7,6 @@ import {
 	NavLink,
 	Redirect
 } from 'react-router-dom'
-
 const SignUp = ({model}) => {
 	return (
 	<center>
@@ -67,24 +66,7 @@ const SignUp = ({model}) => {
         </section>
     </div>
 </center>
-		// <div>
-		// 		<nav className="navbar navbar-light text-center">
-		// 			<a href="javascript:window.history.back();">
-		// 				<i
-		// 					className="fa fa-angle-left fa-3x"
-		// 					aria-hidden="true"/>
-		// 			</a>
-		// 			<div className="navbar-brand">
-		// 				<h3>
-		// 					Sign Up
-		// 				</h3>
-		// 			</div>
-		// 		</nav>
-		// 	<NavLink to={"/signup-form"}
-		// 	         className="btn btn-lyft btn-lg btn-block">
-		// 		Next
-		// 	</NavLink>
-		// </div>
+
 	);
 }
 

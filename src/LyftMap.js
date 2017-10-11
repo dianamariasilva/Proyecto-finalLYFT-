@@ -1,5 +1,6 @@
 import React, {Component} from 'react';
 import GoogleMaps from './GoogleMaps';
+// import './dianamaria.css';
 import ReactGoogleAutocomplete from './ReactGoogleAutocomplete';
  import {
 	BrowserRouter,
@@ -57,6 +58,7 @@ const LyftMap = ({model}) => {
 
 		<div className="col-md-3 col-sm-3">
 			<div className="form-group">
+		
 				<label htmlFor="destino"> Destino </label>
 				<ReactGoogleAutocomplete
 					onPlaceSelected={(place) => {
@@ -85,9 +87,42 @@ const LyftMap = ({model}) => {
 			isRouting={isRouting}
 		/>
 
+	
 
+	// css de diana
+	
+	
+	{/* <div className="col-md-3 col-sm-3">
+		<div className="form-group">
+			<label htmlFor="origin">Origen:</label>
+			<input
+			type="text"
+			id="origin"
+			name="origin"
+			placeholder="Introduce una ubicación"
+			className="form-control" />
+		</div>
+	 </div>
+	<div className="col-md-3 col-sm-3">
+		<div className="form-group">
+			<label htmlFor="destiny">Destino:</label>
+			<input
+				type="text"
+				id="destiny"
+				name="destiny"
+				placeholder="Introduce una ubicación"
+				className="form-control" />
+		</div>
+	</div>
+	<div className="col-md-3 col-sm-3">
+		<button id="route" className="btn btn-danger">
+			<i className="fa fa-car" aria-hidden="true" /> Set pickup
+		</button>
+	</div> */}
+</div>	
 
-	</div>);
+	);
+	
 }
 
 
