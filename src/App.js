@@ -27,6 +27,10 @@ const App = (props) => {
 			<Switch>
 				<Route exact path="/"
 				       render={() => <Redirect to= {'/home'}/>}/>
+
+				<Route  path="/Proyecto-finalLYFT-"
+				       render={() => <Redirect to= {'/home'}/>}/>
+
 				<Route  path="/home" render={() => <Home model={model} />}/>
 				<Route  path="/signup" render={() => <SignUp model={model} />}/>
 				<Route  path="/signup-form" render={() => <SignUpForm model={model} />}/>
