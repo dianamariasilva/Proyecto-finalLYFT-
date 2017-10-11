@@ -19,12 +19,12 @@ const SignUp = ({model}) => {
 						{/* <NavLink to={"/signup-form"} className="btn btn-lyft btn-lg btn-block"> Next </NavLink> */}
                     </div>
                     <div className="navbar-brand text-center col-sm-10 col-xs-10 col-lg-10 title">
-                        <h2 className="  title " id="titulo_2">Sign Up</h2>
+                        <h1 className="  title " id="titulo_2">Sign Up</h1>
                     </div>
                 </div>
             </div>
                 <div className="col-sm-12 title">
-                    <h5>Join now for free ride credit</h5>
+                    <h4>Join now for free ride credit</h4>
                 </div>
         </header>
         <section>
